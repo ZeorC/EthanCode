@@ -1,0 +1,3 @@
+
+set(luaSrc ${CMAKE_SOURCE_DIR}/externals/lua-5.3.5/src)
+set(lunaSrc ${CMAKE_SOURCE_DIR}/externals/luna/src)
