@@ -48,7 +48,7 @@ function printRegistry()
     PrintTable(tabReg);
 end
 
-printRegistry()
+--printRegistry()
 
 local a = 99
 local b = 88
@@ -58,12 +58,14 @@ print(c)
 
 local pPlayer = GetPlayerByUin(345121276)
 
-printRegistry()
+--printRegistry()
 print(pPlayer:GetUin())
 print(pPlayer.m_uiUin)
 local pPlayerInfo = pPlayer:GetPlayerInfoPtr()
 
-printRegistry()
+--printRegistry()
 print(pPlayerInfo.m_uiExp)
 print(pPlayerInfo.m_uiMoney)
 pPlayerInfo.m_uiMoney = 30
+
+printRegistry()

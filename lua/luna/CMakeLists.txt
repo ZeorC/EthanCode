@@ -12,3 +12,5 @@ include_directories( .  ${luaSrc} ${lunaSrc})
 link_directories(${luaSrc})
 add_executable(${target} ${srcList})
 target_link_libraries(${target} lua dl )
+
+install(TARGETS ${target} DESTINATION ${CMAKE_CURRENT_SOURCE_DIR})
